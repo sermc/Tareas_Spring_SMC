@@ -1,0 +1,14 @@
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<title>Consulta Cliente</title>
+	</head>
+	
+	<body>
+		<form th:action="@{searchByName}" method="post">
+			<label>Nombre</label>
+			<input type="text" name="nombre">
+			<br>
+			<button type="submit" id="delete">Añadir</button>
+		</form>
+	</body>
+</html>
